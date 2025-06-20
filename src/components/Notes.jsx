@@ -1,9 +1,9 @@
 import "../App.css";
-function Notes() {
+function Notes({title, content}) {
   return (
     <div className="note">
-      <h1>This is Note</h1>
-      <p>This is about the Note</p>
+      <h1>{title}</h1>
+      <p>{content}</p>
     </div>
   );
 }
